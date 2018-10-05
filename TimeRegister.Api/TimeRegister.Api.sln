@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D88C8BF1-EE45-4123-BEE8-81C00698FB47}"
+	ProjectSection(SolutionItems) = preProject
+		src\Dockerfile = src\Dockerfile
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeRegister.Api", "src\TimeRegister.Api\TimeRegister.Api.csproj", "{6B97C1F7-1AB7-4CE3-9DB9-5B1BA07AABBE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeRegister.Domain", "src\TimeRegister.Domain\TimeRegister.Domain.csproj", "{6717AE0B-460A-4151-BF2E-2816223DE05B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeRegister.Infrastructure", "src\TimeRegister.Infrastructure\TimeRegister.Infrastructure.csproj", "{24AF0AA5-0C03-4922-ADEF-5A514BFD6E80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{12122963-19B1-4C81-B746-2D772883695A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeRegister.Tests", "tests\TimeRegister.Tests\TimeRegister.Tests.csproj", "{31D5DD33-0AD2-47FF-9784-3650C58F19A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B97C1F7-1AB7-4CE3-9DB9-5B1BA07AABBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B97C1F7-1AB7-4CE3-9DB9-5B1BA07AABBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B97C1F7-1AB7-4CE3-9DB9-5B1BA07AABBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B97C1F7-1AB7-4CE3-9DB9-5B1BA07AABBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6717AE0B-460A-4151-BF2E-2816223DE05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6717AE0B-460A-4151-BF2E-2816223DE05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6717AE0B-460A-4151-BF2E-2816223DE05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6717AE0B-460A-4151-BF2E-2816223DE05B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24AF0AA5-0C03-4922-ADEF-5A514BFD6E80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24AF0AA5-0C03-4922-ADEF-5A514BFD6E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24AF0AA5-0C03-4922-ADEF-5A514BFD6E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24AF0AA5-0C03-4922-ADEF-5A514BFD6E80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31D5DD33-0AD2-47FF-9784-3650C58F19A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31D5DD33-0AD2-47FF-9784-3650C58F19A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31D5DD33-0AD2-47FF-9784-3650C58F19A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31D5DD33-0AD2-47FF-9784-3650C58F19A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B97C1F7-1AB7-4CE3-9DB9-5B1BA07AABBE} = {D88C8BF1-EE45-4123-BEE8-81C00698FB47}
+		{6717AE0B-460A-4151-BF2E-2816223DE05B} = {D88C8BF1-EE45-4123-BEE8-81C00698FB47}
+		{24AF0AA5-0C03-4922-ADEF-5A514BFD6E80} = {D88C8BF1-EE45-4123-BEE8-81C00698FB47}
+		{31D5DD33-0AD2-47FF-9784-3650C58F19A7} = {12122963-19B1-4C81-B746-2D772883695A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBD213DE-1DE7-4423-A1D5-ED66FBEB7E1E}
+	EndGlobalSection
+EndGlobal

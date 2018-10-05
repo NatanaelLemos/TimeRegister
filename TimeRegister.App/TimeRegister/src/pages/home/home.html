@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Time Register</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <p>
+    <button class="button-bigger" ion-button full (click)="start()">Start</button>
+  </p>
+  <p>
+    <button class="button-bigger" ion-button full (click)="end()">End</button>
+  </p>
+  <p>
+    <button class="button-bigger" ion-button full (click)="sync()">Sync</button>
+  </p>
+  
+  <ion-list>
+    <ion-item>
+      <ion-label color="primary" floating>Server Url</ion-label>
+      <ion-input [(ngModel)]="serverUrl"></ion-input>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
