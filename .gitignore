@@ -327,7 +327,8 @@ ASALocalRun/
 
 TimeRegister.App/TimeRegister/node_modules/
 TimeRegister.App/TimeRegister/.sourcemaps/
-TimeRegister.App/TimeRegister/www/    
+TimeRegister.App/TimeRegister/www/
+TimeRegister.App/TimeRegister/package-lock.json
 package-lock.json
 *secret.js
 *~
