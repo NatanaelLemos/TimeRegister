@@ -17,7 +17,7 @@ After sync, there are two GET endpoints in the API where you can summarize the i
 
 ---
 
-Software used:
+Softwares used:
 * Docker 18.09
 * Dotnet Core 2.1
 * Ionic 4.1.2
